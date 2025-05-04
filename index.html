@@ -97,7 +97,8 @@
             border: 1px solid var(--border-color);
             display: block;
             object-fit: cover;
-            object-position: center;
+            /* 垂直方向の位置を調整 (例: 上から30%の位置) */
+            object-position: center 30%;
         }
 
         .profile-details {
@@ -463,14 +464,13 @@
     <main>
         <section class="profile">
             <div class="profile-image-container">
-                <!-- ここに実際の画像ファイルパスを指定してください -->
                 <img src="go-maeda-fishing.jpg" alt="前田剛のアイコン" class="profile-image">
             </div>
             <div class="profile-details">
                 <h1>前田剛</h1>
                 <p><strong>所属:</strong> 明石工業高等専門学校 在学中</p>
                 <p><strong>好きな技術:</strong> 自動制御</p>
-                <p><strong>趣味:</strong> ベース、ギター、音楽、釣り</p>
+                <p><strong>趣味:</strong> ベース、ギター、音楽</p>
             </div>
             <div class="profile-links">
                 <a href="https://github.com/Go-Maeda-git" target="_blank" rel="noopener noreferrer" class="link-card github">
