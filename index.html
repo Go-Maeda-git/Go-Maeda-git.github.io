@@ -96,6 +96,8 @@
             border-radius: 50%;
             border: 1px solid var(--border-color);
             display: block;
+            object-fit: cover;
+            object-position: center;
         }
 
         .profile-details {
@@ -434,7 +436,7 @@
             .footer-links a { margin: 0 10px; }
         }
 
-         .placeholder-img {
+        .placeholder-img {
              display: flex;
              align-items: center;
              justify-content: center;
@@ -451,7 +453,6 @@
 <body>
     <header>
         <div class="logo-container">
-
             <span class="site-name">Go Maeda Portfolio</span>
         </div>
         <button class="theme-toggle" title="Toggle theme">
@@ -462,13 +463,14 @@
     <main>
         <section class="profile">
             <div class="profile-image-container">
-                <img src="https://via.placeholder.com/150/c8e6c9/888?text=GM" alt="前田剛のアイコン" class="profile-image">
+                <!-- ここに実際の画像ファイルパスを指定してください -->
+                <img src="go-maeda-fishing.jpg" alt="前田剛のアイコン" class="profile-image">
             </div>
             <div class="profile-details">
                 <h1>前田剛</h1>
                 <p><strong>所属:</strong> 明石工業高等専門学校 在学中</p>
                 <p><strong>好きな技術:</strong> 自動制御</p>
-                <p><strong>趣味:</strong> ベース、ギター、音楽</p>
+                <p><strong>趣味:</strong> ベース、ギター、音楽、釣り</p>
             </div>
             <div class="profile-links">
                 <a href="https://github.com/Go-Maeda-git" target="_blank" rel="noopener noreferrer" class="link-card github">
@@ -560,7 +562,7 @@
     </main>
 
     <footer>
-        <span class="copyright">©Go Maeda</span>
+        <span class="copyright">© 2024 Go Maeda</span>
         <div class="footer-links">
             <a href="https://github.com/Go-Maeda-git" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa-brands fa-github"></i></a>
         </div>
